@@ -1,0 +1,49 @@
+$pink:hsl(322, 100%, 66%);
+$light-pink:hsl(321, 100%, 78%);
+$light-red:hsl(0, 100%, 63%);
+$dark-cyan:hsl(192, 100%, 9%);
+$pale-blue:#f5faff;// section with bg [grow togther - your user]
+$shadow : #DAE1E8;
+
+// Background
+.bg-pink-1{
+  background-color: $pink;
+}
+.bg-pink-2{
+  background-color: $light-pink;
+}
+.bg-red{
+  background-color: $light-red;
+}
+.bg-cyan{
+  background-color: $dark-cyan;
+}
+.bg-blue{
+  background-color: $pale-blue;
+}
+// Text
+.text-pink-1{
+  color: $pink;
+}
+.text-pink-2{
+  color: $light-pink;
+}
+.text-red{
+  color: $light-red;
+}
+.text-cyan{
+  color: $dark-cyan;
+}
+.text-blue{
+  color: $pale-blue;
+}
+
+.opa-75{
+  opacity: .75;
+}
+.opa-50{
+  opacity: .50;
+}
+.opa-25{
+  opacity: .25;
+}

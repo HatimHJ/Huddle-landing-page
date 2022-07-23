@@ -1,0 +1,25 @@
+.numbers{
+  @media (min-width:992px) {  
+    .flex-row {
+      flex-direction: row !important;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .number{
+    position: relative;
+    width: 200px;
+    margin: auto;
+    
+    .icon{
+      width: 40px;
+      position: absolute;
+      top: -20%;
+      left: 0%;
+    }    
+  }
+  .text{
+
+  }
+  
+}
