@@ -15,8 +15,13 @@
 *{@include reset();}
 
 img{
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  display: block;
+}
+body{
+  // background-color: #777;
+  height: 20000px;
 }
 
 .hidden{display: none;}
@@ -24,4 +29,4 @@ img{
 /*=============================================
   Footer
 =============================================*/
-@import './footer';
+@import './copyright';

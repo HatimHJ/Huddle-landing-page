@@ -10,7 +10,7 @@ $neutral-grayish-blue: hsl(229, 6%, 66%);
 $neutral-light-gray: hsl(0, 0%, 98%);
 
 
-footer{
+.copyright{
   box-sizing: border-box;
   @include position(absolute, auto, auto, 1rem, 1rem);
   @include bg-color($primary-cyan);

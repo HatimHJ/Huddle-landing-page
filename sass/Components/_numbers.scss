@@ -1,11 +1,5 @@
 .numbers{
-  @media (min-width:992px) {  
-    .flex-row {
-      flex-direction: row !important;
-      justify-content: space-between;
-      align-items: center;
-    }
-  }
+  
   .number{
     position: relative;
     width: 200px;

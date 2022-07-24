@@ -40,7 +40,7 @@
   font-size: .75rem;
   font-weight: 700;
   &:hover{
-   color: lighten($color: $pink, $amount: 10);
-   border-color: lighten($color: $pink, $amount: 10);
+    color: lighten($color: $pink, $amount: 10);
+    border-color: lighten($color: $pink, $amount: 10);
   }
 }

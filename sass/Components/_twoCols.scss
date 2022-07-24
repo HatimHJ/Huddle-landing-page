@@ -1,0 +1,65 @@
+.twoCols{
+  background-color: $pale-blue;
+  .content{
+    p{margin-top: 1.5rem;}
+  }
+  @media (min-width:992px) { 
+    .image{width: 40%;} 
+    .content{
+      order: -1;
+      text-align: left;
+      width: 45%;
+      p{margin-top: 1.5rem;}
+    }
+  }
+  // TODO BG Image
+  .desktop-bg{    
+    display: none;
+  }
+  /*
+
+  .bg-bottom-1,
+  .bg-top-1{
+    position: relative;  
+    min-height: 375px;
+    img{
+      position: absolute;
+      width: 100%;
+      left: 0;
+      z-index: -10;
+    }
+  }  
+  .bg-top-1 img{
+    top: -0%;      
+    @media (min-width:992px) {  
+      top: -15%;      
+      .desktop-bg{display: block;}
+      .mobile-bg{display: none;}    
+    }
+  }
+  .bg-bottom-1 img{
+    bottom: -15%;
+    @media (min-width:992px) {  
+      bottom: -10%;
+      .desktop-bg{display: block;}
+      .mobile-bg{display: none;}
+    }
+  }
+  */
+
+}
+
+// twoCols-2 
+.twoCols-2 {
+  background-color: white;
+  @media (min-width:992px) { 
+    .image{width: 40%;} 
+    .content{
+      order: 0;
+      text-align: left;
+      width: 45%;
+      p{margin-top: 1.5rem;}
+    }
+  }
+}
+
