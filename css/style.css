@@ -128,6 +128,10 @@
   margin-top: 4rem;
 }
 
+.mb-1 {
+  margin-bottom: 4rem;
+}
+
 html {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -372,6 +376,27 @@ header .header {
   align-items: center;
 }
 
+footer {
+  position: relative;
+}
+footer::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(../../images/bg-footer-top-mobile.svg);
+  top: -13vw;
+}
+@media (min-width: 992px) {
+  footer::after {
+    background-image: url(../../images/bg-footer-top-desktop.svg);
+    top: -10.5vw;
+  }
+}
+
 /*=============================================
   Basic
 =============================================*/
@@ -392,10 +417,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-}
-
-body {
-  height: 20000px;
 }
 
 .hidden {

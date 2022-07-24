@@ -1,0 +1,18 @@
+footer {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../../images/bg-footer-top-mobile.svg);
+    top: -13vw;
+    @media (min-width:992px) {
+      background-image: url(../../images/bg-footer-top-desktop.svg);
+      top: -10.5vw;
+    }
+  }
+}
