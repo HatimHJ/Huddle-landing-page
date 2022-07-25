@@ -1,13 +1,12 @@
 AOS.init();
 const body = document.querySelector("body");
-const loader = document.querySelector(".loader");
+const loader = document.querySelector(".loader-container");
 const email = document.querySelector("#email");
 const emailbtn = document.querySelector("#submit");
 const form = document.querySelector("form.grid");
 
 body.onload = () => {
-	// data-aos-easing="ease-in-sine"
-	loader.setAttribute("data-aos-easing", "linear");
+	loader.setAttribute("data-aos-duration", "1500");
 	loader.setAttribute("data-aos", "slide-left");
 };
 
