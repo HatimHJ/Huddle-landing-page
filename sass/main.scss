@@ -7,6 +7,7 @@
 @import './utils/typography';
 @import './utils/buttons';
 @import './utils/mixin';
+@import './loader';
 @import './submain';
 
 /*=============================================
@@ -19,14 +20,11 @@ img{
   height: auto;
   display: block;
 }
-body{
-  // background-color: #777;
-  // height: 2000px;
-}
+
 
 .hidden{display: none;}
 
 /*=============================================
-  Footer
+  copyright
 =============================================*/
 @import './copyright';

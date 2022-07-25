@@ -1,4 +1,12 @@
 .hero{
+  .image{
+    img{
+      @media (min-width:992px) {
+        max-width: 70%;
+        margin: auto;
+      }
+    }
+  }
   .hero-container{
     padding: 0 5.5rem;
   }

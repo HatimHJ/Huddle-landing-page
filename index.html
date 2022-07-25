@@ -15,19 +15,38 @@
 			href="./images/favicon-32x32.png"
 			type="image/x-icon"
 		/>
+		<!-- fonts awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- aos -->
+		<link rel="stylesheet" href="./css/aos.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 
 		<title>Huddle landing page with curved sections</title>
 	</head>
 	<body>
+		<style>
+			body {
+				overflow-x: hidden;
+			}
+		</style>
+		<!-- loader -->
+		<div class="loader">
+			<div class="lds-circle"><div></div></div>
+		</div>
 		<!-- header -->
 		<header>
 			<div class="container">
 				<div class="header">
-					<div class="logo">
+					<div class="logo" data-aos="slide-down" data-aos-delay="400">
 						<img src="./images/logo.svg" alt="logo" width="150px" />
 					</div>
-					<nav>
+					<nav data-aos="slide-down" data-aos-delay="500">
 						<button class="btn btn-2">Try It Free</button>
 					</nav>
 				</div>
@@ -48,7 +67,7 @@
 						</p>
 						<button class="btn btn-1">Get Started For Free</button>
 					</div>
-					<div class="image">
+					<div class="image" data-aos="zoom-in" data-aos-delay="600">
 						<img src="./images/screen-mockups.svg" alt="" />
 					</div>
 				</div>
@@ -88,30 +107,28 @@
 			</div>
 		</section>
 		<!-- twoCols #1 section -->
-		<section class="twoCols-1 twoCols text-center">
-			<div class="bg-top-1">
-				<img
-					src="./images/bg-section-top-desktop-1.svg"
-					class="desktop-bg"
-					alt=""
-				/>
-				<img
-					src="./images/bg-section-top-mobile-1.svg"
-					class="mobile-bg"
-					alt=""
-				/>
-			</div>
+		<section class="twoCols-1 twoCols pt-1 pb-1 text-center">
 			<div class="container">
 				<div class="inner-container">
 					<div class="flex flex-col flex-row">
-						<div class="image">
+						<div
+							class="image"
+							data-aos="slide-left"
+							data-aos-delay="400"
+							data-aos-duration="800"
+						>
 							<img
 								class="illustration"
 								src="./images/illustration-grow-together.svg"
 								alt=""
 							/>
 						</div>
-						<div class="content text-cyan pt-sm-1">
+						<div
+							class="content text-cyan pt-sm-1"
+							data-aos="zoom-in-right"
+							data-aos-delay="400"
+							data-aos-duration="1000"
+						>
 							<h2 class="poppins-700 fs-2">Grow Together</h2>
 							<p class="opa-75 openSans-400 fs-0">
 								Generate meaningful discussions with your audience and build a
@@ -122,32 +139,32 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg-bottom-1">
-				<img
-					src="./images/bg-section-bottom-desktop-1.svg"
-					class="desktop-bg"
-					alt=""
-				/>
-				<img
-					src="./images/bg-section-bottom-mobile-1.svg"
-					class="mobile-bg"
-					alt=""
-				/>
-			</div>
 		</section>
 		<!-- twoCols #2 section -->
 		<section class="twoCols-2 twoCols pt-1 pb-1 text-center">
 			<div class="container">
 				<div class="inner-container">
 					<div class="flex flex-col flex-row">
-						<div class="image">
+						<div
+							class="image"
+							class="content text-cyan pt-sm-1"
+							data-aos="slide-right"
+							data-aos-delay="400"
+							data-aos-duration="800"
+						>
 							<img
 								class="illustration"
 								src="./images/illustration-flowing-conversation.svg"
 								alt=""
 							/>
 						</div>
-						<div class="content text-cyan pt-sm-1">
+						<div
+							class="content text-cyan pt-sm-1"
+							class="content text-cyan pt-sm-1"
+							data-aos="zoom-in-left"
+							data-aos-delay="400"
+							data-aos-duration="1000"
+						>
 							<h2 class="poppins-700 fs-2">Flowing Conversations</h2>
 							<p class="opa-75 openSans-400 fs-0">
 								You wouldn't paginate a conversation in real life, so why do it
@@ -159,32 +176,29 @@
 				</div>
 			</div>
 		</section>
-		<!-- ================================ -->
 		<!-- twoCols #3 section -->
-		<section class="twoCols-3 twoCols text-center">
-			<div class="bg-top-1">
-				<img
-					src="./images/bg-section-top-desktop-1.svg"
-					class="desktop-bg"
-					alt=""
-				/>
-				<img
-					src="./images/bg-section-top-mobile-1.svg"
-					class="mobile-bg"
-					alt=""
-				/>
-			</div>
+		<section class="twoCols-3 twoCols pt-1 pb-1 text-center">
 			<div class="container">
 				<div class="inner-container">
 					<div class="flex flex-col flex-row">
-						<div class="image">
+						<div
+							class="image"
+							data-aos="slide-left"
+							data-aos-delay="400"
+							data-aos-duration="800"
+						>
 							<img
 								class="illustration"
 								src="./images/illustration-your-users.svg"
 								alt=""
 							/>
 						</div>
-						<div class="content text-cyan pt-sm-1">
+						<div
+							class="content text-cyan pt-sm-1"
+							data-aos="zoom-in-right"
+							data-aos-delay="400"
+							data-aos-duration="1000"
+						>
 							<h2 class="poppins-700 fs-2">Your Users</h2>
 							<p class="opa-75 openSans-400 fs-0">
 								It takes no time at all to integrate Huddle with your app's
@@ -195,26 +209,19 @@
 					</div>
 				</div>
 			</div>
-			<div class="bg-bottom-1">
-				<img
-					src="./images/bg-section-bottom-desktop-1.svg"
-					class="desktop-bg"
-					alt=""
-				/>
-				<img
-					src="./images/bg-section-bottom-mobile-1.svg"
-					class="mobile-bg"
-					alt=""
-				/>
-			</div>
 		</section>
 		<!-- call To Action section -->
 		<section class="callToAction mb-1 pt-1 pb-1 text-center">
 			<div class="container">
 				<div class="inner-container">
-					<div class="flex flex-col">
+					<div
+						class="flex flex-col"
+						data-aos="zoom-in"
+						data-aos-delay="600"
+						data-aos-duration="1200"
+					>
 						<h2 class="fs-2">Ready To Build Your Community?</h2>
-						<button class="btn-1">Get Started For Free</button>
+						<button class="btn btn-1">Get Started For Free</button>
 					</div>
 				</div>
 			</div>
@@ -224,44 +231,69 @@
 			<div class="container">
 				<div class="inner-container">
 					<div class="flex flex-col flex-row">
-						<div class="newsletter">
-							<h3>Newsletter</h3>
-							<p>
+						<div class="newsletter pb-1 text-left">
+							<h3 class="fs-2 openSan-400">Newsletter</h3>
+							<p class="">
 								To recieve tips on how to grow your community, sign up to our
 								weekly newsletter. We’ll never send you spam or pass on your
 								email addres
 							</p>
-							<form>
-								<input type="text" />
-								<button class="btn-1">Subscribe</button>
+							<form action="" class="grid">
+								<input type="email" id="email" />
+								<button class="btn btn-1" id="submit">Subscribe</button>
 							</form>
 						</div>
-						<div class="info">
+						<div class="info text-left">
 							<img
 								src="./images/logo.svg"
 								style="filter: brightness(0) invert(1)"
 								alt=""
 							/>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+								fugit consequatur dolorum voluptatem voluptas praesentium
+								debitis recusandae iste quos ipsum
+							</p>
+							<div class="contact">
+								<div class="phone">
+									<i class="fa-solid fa-phone"></i>
+									<span>Phone: +1-543-123-4567</span>
+								</div>
+								<div class="email">
+									<i class="fa-solid fa-envelope"></i>
+									<span>example@huddle.com</span>
+								</div>
+							</div>
+							<div class="social">
+								<a href="#">
+									<i class="fa-brands fa-facebook-square fa-2x"></i>
+								</a>
+								<a href="#">
+									<i class="fa-brands fa-instagram-square fa-2x"></i>
+								</a>
+								<a href="#">
+									<i class="fa-brands fa-twitter-square fa-2x"></i>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
-		<!-- ===================================== -->
-		<!-- 
-    <section class="copyright">
-      <p class="attribution">
-        <i class="ri-copyright-line ri-2x"></i>
-        <span>
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="https://github.com/HatimHJ">hatimHJ</a>.
-        </span>
-      </p>
-    </section >
-  -->
-
+		<!-- copyright -->
+		<section class="copyright">
+			<p class="attribution">
+				<i class="ri-copyright-line ri-2x"></i>
+				<span>
+					Challenge by
+					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+						>Frontend Mentor</a
+					>. Coded by <a href="https://github.com/HatimHJ">hatimHJ</a>.
+				</span>
+			</p>
+		</section>
+		<!-- script -->
+		<script src="./js/aos.js"></script>
 		<script src="./js/main.js"></script>
 	</body>
 </html>

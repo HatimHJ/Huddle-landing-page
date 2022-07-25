@@ -1,4 +1,21 @@
 .callToAction{
+  position: relative;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    // z-index: -10;
+    background-image: url(../../images/bg-section-bottom-mobile-2.svg);
+    top: 0vw;
+    @media (min-width:992px) {
+      background-image: url(../../images/bg-section-bottom-desktop-2.svg);
+      top: -0vw;
+    }
+  }
   .flex{
     gap: 3rem;
     align-items: center;
